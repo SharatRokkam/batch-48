@@ -1,0 +1,31 @@
+div {
+  /* font: italic 24px sans-serif; */
+  /* border-color: blue;
+  border-width: 2px;
+  border-style: solid; */
+  /* shorthand  */
+  border: 2px solid red;
+
+  /* border-top: 1px solid red;
+  border-right: 2px dashed blue;
+  border-bottom: 3px dotted black; */
+  /* border-left: 4px groove grey; */
+
+  /* padding  */
+  /* padding: top right bottom left; */
+  /* padding: 10px 20px 30px 40px;
+  padding-left: 10px;
+  padding-top: ;
+  padding-bottom: 10px;
+  padding-right: ; */
+
+  /* What is the difference the margin(+ve and -ve) and padding(+ve) */
+
+  /* margin  */
+
+  /* margin: top right bottom left; */
+  /* margin: 10px;
+  margin: 10px 20px 30px 20px;
+  margin-left: 50px; */
+
+}
