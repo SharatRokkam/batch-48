@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* .parent {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column-reverse/ row-reverse/ row (default) / column;
+  justify-content: start / end / center / space-around / space-between / space-evenly;
+  gap: 10px;
+  flex-wrap: wrap;
+} */
+
+/* .child {
+  background-color: coral;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rebeccapurple;
+  color: white;
+  text-align: center;
+} */
+
+/* align-self
+align-content
+flex-grow
+flex-shrink
+flex-basis */
+
+/* Navigation bar code starts here  */
+
+.navigation {
+  display: flex;
+  background-color: rgba(113, 44, 249, 1);
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.left-section {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  color: white;
+}
+
+li {
+  margin: 0px 10px;
+}
+
+img {
+  width: 80px;
+}
+
+i {
+  color: white;
+  margin: 0 14px;
+}
+
+ul,
+i {
+  margin-top: 24px;
+}
