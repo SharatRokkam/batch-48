@@ -1,0 +1,31 @@
+.parent {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-wrap: wrap;
+  align-content: center; */
+  /* 100 viewport height  */
+  height: 100vh;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  background-color: bisque;
+  flex-shrink: 0;
+}
+
+.child1 {
+  /* flex-grow: 1; */
+  align-self: center;
+}
+
+
+.child4{
+    align-self: center;
+}
+.child6 {
+  flex-shrink: 1;
+}
