@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 25px auto;
+
+        }
+
+        .logo h2 {
+            color: blue;
+        }
+
+        ul {
+            display: flex;
+            gap: 15px;
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 70px auto;
+
+
+        }
+
+        .left-section h1 {
+            font-size: 3rem;
+        }
+
+        .left-section p {
+            font: 1.2rem;
+            margin-top: 30px;
+            line-height: 20px;
+        }
+
+        .left-section .btn button {
+            padding: 10px 19px;
+            margin: 20px 5px;
+            border-radius: 7px;
+            border: none;
+
+        }
+
+        .pages {
+            color: white;
+            background-color: blue;
+
+        }
+
+        .documentation {
+            background-color: rgb(182, 237, 237);
+            color: blue;
+        }
+
+        .right-section img {
+            min-width: 100px;
+            max-width: 400px;
+            min-height: 100px;
+            max-height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- navigation bar goes here  -->
+    <header>
+        <nav class="navigation">
+            <div class="logo">
+                <h2>Devkit.</h2>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Service</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+    <!-- hero or banner section  -->
+    <section class="banner">
+        <div class="left-section">
+            <h1>Welcome to <span style="color: blue;">Devkit.</span> <br>
+                Develop Anything</h1>
+            <p>Build a beautiful, modern website with flexible components <br> built from scratch</p>
+            <div class="btn">
+                <button class="pages">
+                    View All Pages
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <button class="documentation">Documentation</button>
+            </div>
+        </div>
+        <div class="right-section">
+            <img src="./3426526.jpg" alt="">
+        </div>
+    </section>
+</body>
+
+</html>
