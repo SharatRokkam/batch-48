@@ -1,0 +1,54 @@
+/* body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Bachelor%27s_button%2C_Basket_flower%2C_Boutonniere_flower%2C_Cornflower_-_3.jpg/1200px-Bachelor%27s_button%2C_Basket_flower%2C_Boutonniere_flower%2C_Cornflower_-_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+/* body {
+  margin: 0;
+  padding: 0;
+  background-color: #ca7842;
+}
+
+.parent {
+  background-color: beige;
+  width: 200px;
+  font-size: 10px;
+}
+
+.parent div {
+  background-color: blue;
+  font-size: 2rem;
+} */
+
+.one {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+}
+.two {
+  background-color: rgb(207, 191, 222);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+}
+.three {
+  background-color: rgb(79, 216, 92);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  z-index: 2;
+}
+.four {
+  background-color: rgb(146, 128, 163);
+  width: 100px;
+  height: 100px;
+   position: absolute;
+  top: 90px;
+  left: 90px;
+  z-index: 3000;
+}
