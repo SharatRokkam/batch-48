@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box {
+            border: 1px solid red;
+            width: 200px;
+            box-sizing: border-box;
+            overflow-y: scroll;
+            overflow-x: visible;
+
+            height: 200px;
+            margin: 50px 50px;
+            padding: 30px 30px;
+            background-color: rgba(93, 97, 210, 0.6);
+            /* box-shadow: -15px -5px 10px red, 10px 5px 10px rgba(0, 0, 0, 0.7); */
+
+            /* box-shadow:  10px 10px 5px grey; */
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 25px;
+            text-shadow: -3px -3px red;
+        }
+
+        .one {
+            box-shadow: 1px 1px 20px rgb(189, 189, 73);
+        }
+
+        .two {
+            filter: drop-shadow(1px 1px 20px rgb(195, 195, 41));
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h3> Box shadow and Text shadow</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quae ratione corporis nisi voluptas
+            recusandae repudiandae nam qui adipisci ex.</p>
+
+    </div>
+
+
+    <div style="display: flex; justify-content: center  ;">
+        <img src="./dog-removebg-preview.png" alt="" class="one" width="300px">
+        <img src="./dog-removebg-preview.png" alt="" class="two" width="300px">
+
+    </div>
+</body>
+
+</html>

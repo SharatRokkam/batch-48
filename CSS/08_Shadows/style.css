@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  width: 80%;
+  display: flex;
+  padding: 40px 70px 0 80px;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  margin: auto;
+}
+
+.child {
+  border: 1px solid black;
+  width: 250px;
+  height: 175px;
+  background-color: aqua;
+  margin-left: 50px;
+}
+
+.card {
+  width: 350px;
+  border: 1px solid grey;
+  background-color: rgb(230, 244, 244);
+  padding: 20px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+}
+
+input {
+  width: 90%;
+}
+
+.popDown {
+  opacity: 0.2;
+}
+
+.child:hover {
+  box-shadow: 3px 3px 5px gray, -3px -3px 5px gray;
+  cursor: pointer;
+}
