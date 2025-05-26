@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+/* .linear {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  margin: 10px auto;
+  background: repeating-linear-gradient(
+    to top right,
+    red,
+    red 10%,
+    blue 20%,
+    blue 30%
+  );
+}
+
+.radial {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  margin: auto;
+  background: radial-gradient(rgb(13, 15, 13) 50%, pink 20%);
+} */
+
+/* h1 {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  background-image: url(./Nikon-D600-Sample-14.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+} */
+
+h2 {
+  font-family: cursive;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 900;
+  background: linear-gradient(to right, red, blue, pink, white);
+  color: transparent;
+  -webkit-background-clip: text;
+    
+    
+}
