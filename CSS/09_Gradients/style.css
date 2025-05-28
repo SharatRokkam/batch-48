@@ -5,12 +5,12 @@
   background-color: black;
 }
 
-/* .linear {
+.linear {
   width: 200px;
   height: 200px;
   border: 1px solid;
   margin: 10px auto;
-  background: repeating-linear-gradient(
+  background:repeating-linear-gradient(
     to top right,
     red,
     red 10%,
@@ -24,8 +24,8 @@
   height: 200px;
   border: 1px solid;
   margin: auto;
-  background: radial-gradient(rgb(13, 15, 13) 50%, pink 20%);
-} */
+  background: radial-gradient(blue, rgb(13, 15, 13) 50%, pink 20%);
+}
 
 /* h1 {
   font-size: 60px;
@@ -39,7 +39,7 @@
   color: transparent;
 } */
 
-h2 {
+/* h2 {
   font-family: cursive;
   font-size: 100px;
   text-align: center;
@@ -49,4 +49,4 @@ h2 {
   -webkit-background-clip: text;
     
     
-}
+} */
