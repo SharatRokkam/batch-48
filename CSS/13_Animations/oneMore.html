@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .scroll {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .block {
+            background-color: rgb(65, 60, 212);
+            margin: 10px;
+            height: 100px;
+            width: 250px;
+            animation: scroll linear;
+            animation-timeline: view();
+            animation-range: entry 50% cover 75%;
+
+
+        }
+
+        .newBlock {
+            background-color: rgb(221, 135, 29);
+            height: 100px;
+            width: 250px;
+            animation: scroll linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 50%;
+        }
+
+        @keyframes scroll {
+            from {
+                opacity: 0;
+                scale: 0.3;
+            }
+
+            to {
+                opacity: 1;
+                scale: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="scroll">
+        <div class="block"></div>
+        <div class="newBlock"></div>
+        <div class="block"></div>
+        <div class="newBlock"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="newBlock"></div>
+        <div class="newBlock"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="newBlock"></div>
+        <div class="newBlock"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="newBlock"></div>
+        <div class="newBlock"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="newBlock"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="newBlock"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="newBlock"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="newBlock"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="newBlock"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+
+</body>
+
+</html>
