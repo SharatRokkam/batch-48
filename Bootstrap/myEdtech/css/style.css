@@ -1,0 +1,98 @@
+* {
+  font-family: "Inter", sans-serif;
+  /* background-color: #f0faff; */
+}
+
+.logo-img {
+  max-width: 80px; /* Adjust as needed */
+  height: auto;
+}
+
+.whatsappBtn {
+  color: #27ae60;
+  border: 1px solid #27ae60;
+  padding: 10px 18px;
+  font-size: 16px;
+}
+
+.whatsappBtn i {
+  color: #27ae60;
+}
+.whatsappBtn:hover {
+  border: 1px solid #27ae60;
+}
+.callBtn {
+  color: #fff;
+  padding: 10px 18px;
+  background: linear-gradient(to right, #0acefe, #2699fb);
+}
+
+.bannerContent h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.bannerContent h1 span {
+  color: #2699fb;
+  /* background: url("../assets/zigzag-removebg-preview.png") no-repeat bottom; */
+}
+
+.bannerContent p {
+  font-size: 20px;
+}
+
+.bannerContent ul {
+  list-style-type: none;
+}
+.bannerContent ul li {
+  font-size: 20px;
+}
+
+.bannerContent ul li i {
+  background-color: #2699fb;
+  color: white;
+}
+
+.bannerContentBtn button {
+  width: 50%;
+  padding: 10px 0px;
+  border-radius: 10px;
+  border: none;
+}
+
+.bannerContentBtn button:first-child {
+  background: linear-gradient(to right, #0acefe, #2699fb);
+  color: white;
+}
+
+.bannerContentBtn button:last-child {
+  /* background: linear-gradient(to right, #0acefe, #2699fb); */
+  border: 1px solid #2699fb;
+  /* color: white; */
+}
+
+.bannerForm {
+  padding: 40px;
+}
+
+.bannerForm h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.formBtn {
+  width: 100%;
+  background: linear-gradient(to right, #0acefe, #2699fb);
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.courseSection h1 {
+  color: #2699fb;
+  font-weight: 700;
+}
+.courseSection p{
+  font-weight: 600;
+}

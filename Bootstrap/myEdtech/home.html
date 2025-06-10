@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyEdtech</title>
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- google fonts cdn link  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap file cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- stylesheets  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <!--Enquiry Modal -->
+    <div class="modal fade" id="EnModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Enquire Now</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <h3>Book your free class Now!</h3>
+                        <p>2 Days of free class without paying in advance</p>
+
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Name" />
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Phone</label>
+                            <input type="text" class="form-control" placeholder="Phone">
+                        </div>
+
+                        <div class="mb-3">
+                            <button class="formBtn">
+                                Register Now
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar  -->
+    <header class="container-fluid shadow-lg py-2 sticky-top pt-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <figure class="col-lg-6 col-sm-6 col-12 text-lg-start text-center mb-0 pb-0">
+                    <img src="./assets/logo.png" class="img-fluid mb-0 logo-img" alt="">
+                </figure>
+
+                <div class="col-lg-6 col-sm-6 pt-3">
+                    <div class="btn-outer d-flex gap-3 justify-content-end">
+                        <button class="btn whatsappBtn"><i class="fa-brands fa-whatsapp"></i> Chat with us</button>
+                        <button class="btn callBtn"><i class="fa-solid fa-phone"></i> Call us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- hero section goes here  -->
+    <section class="container-fluid py-lg-5 py-sm-4 py-3">
+        <div class="container">
+            <div class="row d-flex justify-content-between gy-5">
+                <div class="col-lg-6">
+                    <div class="bannerContent">
+                        <h1>Promise to make you!<br><span>Full Stack Developer</span> </h1>
+
+                        <p>Our FSD is so good, that is why you only pay after placements</p>
+
+                        <ul class="m-0 p-0">
+                            <li class="mb-3"> <i class="fa-regular fa-square-check"></i> Specialization : End-to-End Web
+                                Application
+                            </li>
+                            <li class="mb-3"><i class="fa-regular fa-square-check"></i> Min Salary of Rs 4 LPA</li>
+                            <li class="mb-3"><i class="fa-regular fa-square-check"></i> Live Lectures Recording</li>
+                        </ul>
+
+
+                        <div class="bannerContentBtn d-flex gap-3">
+                            <button class="demoBtn" data-bs-toggle="modal" data-bs-target="#EnModal">Book 2 Days
+                                Demo</button>
+                            <button class="downloadBtn">Download Curriculum</button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-5 shadow-lg border rounded-4">
+                    <form action="" class="bannerForm ">
+                        <h3>Book your free class Now!</h3>
+                        <p>2 Days of free class without paying in advance</p>
+
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Name" />
+
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Email" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Phone</label>
+                            <input type="text" class="form-control" placeholder="Phone">
+                        </div>
+
+                        <div class="mb-3">
+                            <button class="formBtn">
+                                Register Now
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container shadow-lg my-5 courseSection">
+            <div class="row p-2 row-cols-lg-5 row-cols-sm-3 row-cols-2">
+                <div class="col ">
+                    <h1>1000+</h1>
+                    <p>Trained</p>
+                </div>
+                <div class="col">
+                    <h1>100+</h1>
+                    <p>Hours</p>
+                </div>
+                <div class="col">
+                    <h1>21 May</h1>
+                    <p>Next Batch</p>
+                </div>
+                <div class="col">
+                    <h1>1000+</h1>
+                    <p>Trained</p>
+                </div>
+                <div class="col">
+                    <h1>1000+</h1>
+                    <p>Trained</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container px-4 " id="icon-grid">
+        <h2 class="pb-2 border-bottom text-center fw-bold">Course Content</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-center">
+                <i class="fa-brands fa-html5"></i>
+                <div>
+                    <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">HTML</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2025 copyright reserved to Sharat Rokkam</p>
+        </footer>
+    </div>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
