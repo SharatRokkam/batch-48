@@ -72,3 +72,39 @@
 
 // console.log(employee.isAadhaar);
 // console.log(employee.newFunc);
+
+// Output based questions and find the bug???
+
+// 1.
+// let x;
+// console.log(typeof x);
+
+// 2.
+
+// let a = null;
+// let b = undefined;
+// console.log(a == b);
+// console.log(a === b);
+
+// 3.- airtel
+// console.log(+true);
+// console.log(+false);
+
+// console.log(+"123");
+
+// 4.
+
+// var a = 10;
+
+// function add() {
+//   let a = 10;
+//   console.log(a);
+// }
+
+// add();
+// console.log(a);
+
+// 5.
+// console.log([] == "");
+// console.log([] == {})
+// console.log({} == [])
