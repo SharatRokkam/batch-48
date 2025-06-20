@@ -86,3 +86,25 @@
 //Nullish Coalescing
 // let value = null ?? "default";
 // console.log(value);
+
+// let a = 10;
+// let b = a;
+// b = 11;
+// console.log(b);
+// console.log(a);
+
+// let emp = {
+//   name: "sharat",
+//   age: 12,
+// };
+// let emp1 = emp;
+// emp1.name = "Anil";
+
+// console.log(emp1);
+// console.log(emp);
+
+// let J = "JS";
+// J[0] = "Q";
+// console.log(J);
+
+//String is immutable
